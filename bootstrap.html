@@ -6,7 +6,12 @@
     <script type="text/javascript">
       window.onload = function() {
         Formio.createForm(document.getElementById('formio'), 'https://atqrsvrzofdfwjo.form.io/contato');
-      };
+        .then(function(form) {
+    // What to do when the submit begins.
+    form.on('submitDone', function(submission) {
+      window.location = 'htp://apple.com';
+    });
+  });
     </script>
   </head>
   <body>
