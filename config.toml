@@ -2,9 +2,5 @@ baseURL = "http://espacovortice.com.br"
 languageCode = "pt-br"
 title = "Espaço Vórtice"
 publishDir = "docs"
-theme = "ananke"
-
-[params]
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-purple"
-  featured_image = "/images/pexels-photo-267967.jpeg"
+theme = "vortice"
+SectionPagesMenu = "main"
